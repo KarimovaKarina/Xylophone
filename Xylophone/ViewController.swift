@@ -9,7 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBAction func keyPressed(_ sender: UIButton) {
+        print("key pressed")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
